@@ -3,12 +3,13 @@ body, html {
     margin: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start; /* Change from center to flex-start */
     background-color: #f0f0f0;
 }
 
 .container {
     perspective: 1000px;
+    margin-top: 20px; /* Add some margin from the top */
 }
 
 .flip-card {
